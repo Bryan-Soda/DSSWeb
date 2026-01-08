@@ -1,1 +1,1 @@
-Sitemap: http://dssucm.org/sitemap.xml
+Sitemap: https://bryan-soda.github.io/DSSWeb/sitemap.xml
