@@ -40,9 +40,10 @@ button {
 .button[data-style="large"]{
   background: $buttonColor;
   font-size: 25px;
+  color: #ffff;
   
   &:hover{
-    background: var(--text);
+    background: #EEBA2B; //experimenting
     color: var(--background);
   }
 }

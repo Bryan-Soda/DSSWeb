@@ -4,23 +4,21 @@
 $page: 1000px;
 $padding: 40px;
 
-$extraPadding: 150px;
+$extraPadding: 200px;
 
 section {
   padding: $padding max($padding, calc((100% - $page) / 2));
   transition: background var(--transition), color var(--transition);
+  font-size: clamp(12px, 1.25rem, 2rem); //min, pref, max 
 }
 //added 'hero' scss styling
 section[data-size="hero"]{
   padding: $padding max($padding, calc((100% - $page) / 2));
   padding-block: $extraPadding;
-  font-size: clamp(12px, 1rem, 3rem);
-  
 }
 //allows control over the font-size of <h1>
 section h1{
   font-size: clamp(1rem, 2vw + 1rem, 3rem);
-  
 }
 
 section[data-size="wide"] {
