@@ -1,47 +1,50 @@
-- title: Cool Dataset
+- title: Intro to Regression Project - House Price Prediction
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable. 
   repo: greenelab/lab-website-template
   tags:
-    - resource
+    - software
 
-- title: Cool Package
+- title: Computer Vision Project - Spot it! Game
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: We will train a custom dataset using Roboflow and Yolo models, for the computer to play the Spot it! Game
   repo: greenelab/lab-website-template
   tags:
     - software
 
-- title: Cool Web Server
+- title: DSS Website
   subtitle: a subtitle
+  group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: Our DSS UCM website creation (About us, projects, workshops, external resources).
   repo: greenelab/lab-website-template
   tags:
     - software
+
+- title: Conser-vision Practice Area - Image Classification
+  subtitle: a subtitle
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/
+  description: The goal is to classify the species that appear in camera trap images collected by research partners. We will be creating and training our own model.
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
+- title: Document Summarization with LLMs
+  subtitle: a subtitle
+  group: featured
+  image: images/photo.jpg
+  link: https://github.com/
+  description: Your goal in this competition is to generate abstracts (for research papers) from SocArXiv papers using large language models, or LLMs.
+  repo: greenelab/lab-website-template
+  tags:
+    - software
+
