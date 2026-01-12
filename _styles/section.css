@@ -1,6 +1,16 @@
 section {
   padding: 40px max(40px, (100% - 1000px) / 2);
   transition: background var(--transition), color var(--transition);
+  font-size: clamp(12px, 1.25rem, 2rem);
+}
+
+section[data-size=hero] {
+  padding: 40px max(40px, (100% - 1000px) / 2);
+  padding-block: 200px;
+}
+
+section h1 {
+  font-size: clamp(1rem, 2vw + 1rem, 3rem);
 }
 
 section[data-size=wide] {

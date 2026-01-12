@@ -33,6 +33,16 @@ button {
   color: var(--background);
 }
 
+.button[data-style=large] {
+  background: #042D62;
+  font-size: 25px;
+  color: white;
+}
+.button[data-style=large]:hover {
+  background: #EEBA2B;
+  color: var(--background);
+}
+
 .button[data-style=bare] {
   padding: 5px;
   background: none;

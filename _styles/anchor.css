@@ -14,7 +14,8 @@
 
 :hover > .anchor,
 .anchor:focus {
-  opacity: 1;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .anchor:hover {
