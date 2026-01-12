@@ -1,5 +1,6 @@
 ---
 title: Events
+permalink: /events/
 nav:
   order: 4
   tooltip: Events, Workshops, Fundraisers, etc.
