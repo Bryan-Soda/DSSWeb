@@ -37,6 +37,8 @@ button {
   background: #042D62;
   font-size: 25px;
   color: white;
+  padding-inline: 50px;
+  padding-block: 15px;
 }
 .button[data-style=large]:hover {
   background: #EEBA2B;

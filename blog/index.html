@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Blog</title>
+<title>Events</title>
 
 <link rel="icon" href="/DSSWeb/images/m-logo-box-plot.png">
 
-<meta name="title" content="Blog">
+<meta name="title" content="Events">
 <meta name="description" content="An engaging 1-3 sentence description of your lab.">
 
-<meta property="og:title" content="Blog">
+<meta property="og:title" content="Events">
 <meta property="og:site_title" content="">
 <meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="og:url" content="https://bryan-soda.github.io/DSSWeb">
 <meta property="og:image" content="/DSSWeb/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Blog">
+<meta property="twitter:title" content="Events">
 <meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
 <meta property="twitter:url" content="https://bryan-soda.github.io/DSSWeb">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Blog",
+    "name": "Events",
     "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Blog",
+    "headline": "Events",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/DSSWeb/images/m-logo-box-plot.png" }
@@ -164,6 +164,10 @@
 
   
     <link href="/DSSWeb/_styles/details.css" rel="stylesheet">
+  
+
+  
+    <link href="/DSSWeb/_styles/events-tab.css" rel="stylesheet">
   
 
   
@@ -340,6 +344,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -412,12 +418,6 @@
     
     
       
-        <a href="/DSSWeb/research/" data-tooltip="Published works">
-          Research
-        </a>
-      
-    
-      
         <a href="/DSSWeb/projects/" data-tooltip="Software, datasets, and more">
           DSS Projects
         </a>
@@ -430,8 +430,14 @@
       
     
       
-        <a href="/DSSWeb/blog/" data-tooltip="Musings and miscellany">
-          Blog
+        <a href="/DSSWeb/research/" data-tooltip="Published works">
+          Research
+        </a>
+      
+    
+      
+        <a href="/DSSWeb/blog/" data-tooltip="Events, Workshops, Fundraisers, etc.">
+          Events
         </a>
       
     
@@ -462,11 +468,12 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="blog">
-<i class="icon fa-solid fa-feather-pointed"></i>Blog</h1>
+    <h1 id="events">
+<i class="icon fa-regular fa-calendar"></i>Events</h1>
+<hr>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<h4 style="text-align: center;">Stay up to date with what’s happening in the Data Science Society! </h4>
+<h4 style="text-align: center;">This page is where we’ll post our weekly meetings, upcoming workshops, and fundraiser events throughout the semester. Check back often for dates, times, and details!</h4>
   </section>
 
   
@@ -480,32 +487,130 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   <size></size>
 -->
 
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+<div class="events-tab">
+    <div class="et-header">
+      <div class="et-subtitle">Spring 2026</div>
+      <div class="et-dates">January 20 – May 7, 2026</div>
+    </div>
+  
+    <div class="et-grid">
+      <!-- Wide: Weekly Meetings -->
+      <div class="et-card et-card--wide">
+        <div class="et-heading" style="text-align: left;">GENERAL MEETINGS</div>
+        <p class="et-text" style="text-align: left;">
+          Weekly meetings cover project updates, community building, and upcoming opportunities. Swing by whenever you can make it.
+        </p>
+  
+        <div class="et-inner">
+        <div class="et-event">1st General Meeting</div>
+          <div class="et-date">January 28th, 2026</div>
+          <div class="et-time">6:30 – 7:00 PM</div>
+        </div>
+      </div>
+  
+      <!-- Workshops -->
+      <div class="et-card">
+        <div class="et-heading">WORKSHOPS</div>
+        <p class="et-text" style="text-align: center;">
+          Hands-on sessions focused on tools, data analysis, and building portfolio-ready skills.
+        </p>
+  
+        <div class="et-inner et-inner--compact">
+            <div class="et-event">Github Workshop</div>
+            <div class="et-date">February 10th, 2026</div>
+            <div class="et-time">6:00 – 7:00 PM</div>
+        </div>
+      </div>
+  
+      <!-- Fundraisers -->
+      <div class="et-card">
+        <div class="et-heading">FUNDRAISERS</div>
+        <p class="et-text" style="text-align: center;">
+          Fundraisers help support speakers, club activities, and resources for members.
+        </p>
+  
+        <div class="et-inner et-inner--compact">
+          <div class="et-event">Panda Express Fundraiser</div>
+          <div class="et-date">March 10th, 2026</div>
+          <div class="et-time">6:00 – 7:00 PM</div>
+      </div>
+    </div>
+  </div>  
+
+
+<!-- <div class="search-box">
+  <input
+    type="text"
+    class="search-input"
+    oninput="onSearchInput(this)"
+    placeholder="Search items on this page"
+  />
+  <button
+    disabled
+    data-tooltip="Clear search"
+    aria-label="clear search"
+    onclick="onSearchClear()"
+  >
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </div>
+ -->
 
-<div class="tags">
+<!-- 
+
+
+  <div
+    class="tags"
     
-      <a href="/DSSWeb/blog/?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+  >
+    
+      <a
+        href="/DSSWeb/blog/?search=&quot;tag: biology&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;biology&quot;"
+      >
         biology
       </a>
     
-      <a href="/DSSWeb/blog/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a
+        href="/DSSWeb/blog/?search=&quot;tag: medicine&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;medicine&quot;"
+      >
         medicine
       </a>
     
-      <a href="/DSSWeb/blog/?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+      <a
+        href="/DSSWeb/blog/?search=&quot;tag: big-data&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;big-data&quot;"
+      >
         big-data
       </a>
     
   </div>
 
-<div class="search-info"></div>
+ -->
 
-<h3 id="2023">2023</h3>
+<!-- <div class="search-info"></div>
+ -->
+
+<!-- 
+
+
+
+
+
+  
+
+  <h3 id="2023">2023</h3>
+    
+  
+
+  
+    
+
+    
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -514,8 +619,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
     
 
     
-      <a href="/DSSWeb/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
-        <img src="/DSSWeb/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;">
+      <a
+        href="/DSSWeb/2023/02/23/example-post-3.html"
+        class="post-excerpt-image"
+        aria-label="Example post 3"
+      >
+        <img
+          src="/DSSWeb/images/photo.jpg"
+          alt="Example post 3"
+          loading="lazy"
+          onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;"
+
+        >
       </a>
     
 
@@ -533,12 +648,26 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
 <div class="portrait-wrapper">
-  <a href="/DSSWeb/members/john-doe.html" class="portrait" data-style="tiny" aria-label="John Doe">
+  <a
+    
+      href="/DSSWeb/members/john-doe.html"
+    
+    class="portrait"
+    data-style="tiny"
+    aria-label="John Doe"
+  >
     
       <i class="icon fa-solid fa-graduation-cap"></i>
     
 
-    <img src="/DSSWeb/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;">
+    <img
+      src="/DSSWeb/images/photo.jpg"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;"
+
+    >
 
     
       <span class="portrait-name">
@@ -582,13 +711,24 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
 
 
-  <div class="tags">
+  <div
+    class="tags"
     
-      <a href="/DSSWeb/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+  >
+    
+      <a
+        href="/DSSWeb/blog?search=&quot;tag: biology&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;biology&quot;"
+      >
         biology
       </a>
     
-      <a href="/DSSWeb/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a
+        href="/DSSWeb/blog?search=&quot;tag: medicine&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;medicine&quot;"
+      >
         medicine
       </a>
     
@@ -608,7 +748,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2021">2021</h3>
+  
+
+  
+
+  <h3 id="2021">2021</h3>
+    
+  
+
+  
+    
+
+    
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -632,12 +783,26 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
 <div class="portrait-wrapper">
-  <a href="/DSSWeb/members/jane-smith.html" class="portrait" data-style="tiny" aria-label="Jane Smith">
+  <a
+    
+      href="/DSSWeb/members/jane-smith.html"
+    
+    class="portrait"
+    data-style="tiny"
+    aria-label="Jane Smith"
+  >
     
       <i class="icon fa-solid fa-microscope"></i>
     
 
-    <img src="/DSSWeb/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;">
+    <img
+      src="/DSSWeb/images/photo.jpg"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;"
+
+    >
 
     
       <span class="portrait-name">
@@ -699,7 +864,18 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   </div>
 </div>
 
-<h3 id="2019">2019</h3>
+  
+
+  
+
+  <h3 id="2019">2019</h3>
+    
+  
+
+  
+    
+
+    
 
 <div class="post-excerpt-container">
   <div class="post-excerpt">
@@ -723,12 +899,26 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 
 
 <div class="portrait-wrapper">
-  <a href="/DSSWeb/members/sarah-johnson.html" class="portrait" data-style="tiny" aria-label="Sarah Johnson">
+  <a
+    
+      href="/DSSWeb/members/sarah-johnson.html"
+    
+    class="portrait"
+    data-style="tiny"
+    aria-label="Sarah Johnson"
+  >
     
       <i class="icon fa-solid fa-code"></i>
     
 
-    <img src="/DSSWeb/images/photo.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;">
+    <img
+      src="/DSSWeb/images/photo.jpg"
+      class="portrait-image"
+      alt="member portrait"
+      loading="lazy"
+      onerror="this.src = '/DSSWeb/images/fallback.svg'; this.onerror = null;"
+
+    >
 
     
       <span class="portrait-name">
@@ -772,17 +962,32 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
   
 
 
-  <div class="tags">
+  <div
+    class="tags"
     
-      <a href="/DSSWeb/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+  >
+    
+      <a
+        href="/DSSWeb/blog?search=&quot;tag: biology&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;biology&quot;"
+      >
         biology
       </a>
     
-      <a href="/DSSWeb/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+      <a
+        href="/DSSWeb/blog?search=&quot;tag: medicine&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;medicine&quot;"
+      >
         medicine
       </a>
     
-      <a href="/DSSWeb/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
+      <a
+        href="/DSSWeb/blog?search=&quot;tag: big-data&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;big-data&quot;"
+      >
         big-data
       </a>
     
@@ -800,6 +1005,11 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
       </p>
     </div>
   </div>
+</div>
+
+  
+
+ -->
 </div>
   </section>
 
