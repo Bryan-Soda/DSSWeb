@@ -18,7 +18,10 @@
 
 ## Next Event
 
-{% include section.html background="images/blue.png" size="mission" %}
+{% include section.html 
+background="images/blue.png" 
+size="mission"
+repeat="repeat"  %}
 # **Mission Statement**
 <hr>
 <p style="text-align: center;">Our mission is to cultivate a community of innovators passionate about data-driven discovery. Empower students to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to generate insight, impact, and innovation.</p>
