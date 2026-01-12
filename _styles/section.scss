@@ -1,10 +1,10 @@
 ---
 ---
 
-$page: 1000px;
-$padding: 40px;
+$page: 1500px;
+$padding: 75px;
 
-$extraPadding: 200px;
+$extraPadding: 125px;
 
 section {
   padding: $padding max($padding, calc((100% - $page) / 2));
@@ -16,15 +16,24 @@ section[data-size="hero"]{
   padding: $padding max($padding, calc((100% - $page) / 2));
   padding-block: $extraPadding;
 }
+section[data-size="hero"] p {
+  margin-bottom:  20px;
+  font-size: clamp(1rem, 3vw, 25px);
+}
+
 //allows control over the font-size of <h1>
 section h1{
   font-size: clamp(1rem, 2vw + 1rem, 3rem);
+  
 }
 
-section[data-size="wide"] {
-  padding: $padding;
+section[data-size="mission"] {
+  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding-bottom: 100px;
 }
-
+section[data-size="mission"] p {
+    font-size: clamp(1rem, 3vw, 30px);
+}
 section[data-size="full"] {
   padding: 0;
 }

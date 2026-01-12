@@ -5,14 +5,14 @@ nav:
   tooltip: Meet our team!
 ---
 
-{% include section.html background="images/yellow-science-background.jpg" %}
+{% include section.html %}
 
 # Meet Our Leadership!
 
 <p style="text-align: center;">Get to know the leadership team behind DSS!</p>
 <p style="text-align: center;">Our team collaborates to <b>lead projects</b>, <b>organize events</b>, and <b>empower students</b> with opportunities to learn, build, and explore data science.</p>
 
-{% include section.html %}
+{% include section.html background="images/tile_background.png"  %}
 
 <h3 style="text-align: center;">DSS Board</h3>
 {% capture leadership %}
