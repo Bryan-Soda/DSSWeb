@@ -1,11 +1,11 @@
 section {
-  padding: 75px max(75px, (100% - 1500px) / 2);
+  padding: 75px max(75px, (100% - 1250px) / 2);
   transition: background var(--transition), color var(--transition);
   font-size: clamp(12px, 1.25rem, 2rem);
 }
 
 section[data-size=hero] {
-  padding: 75px max(75px, (100% - 1500px) / 2);
+  padding: 75px max(75px, (100% - 1250px) / 2);
   padding-block: 125px;
 }
 
@@ -19,7 +19,7 @@ section h1 {
 }
 
 section[data-size=mission] {
-  padding: 75px max(75px, (100% - 1500px) / 2);
+  padding: 75px max(75px, (100% - 1250px) / 2);
   padding-bottom: 100px;
 }
 
