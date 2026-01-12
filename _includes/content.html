@@ -22,6 +22,10 @@
     | regex_scan: "<size>(.*?)</size>"
     | default: "page"
   %}
+    {% assign repeat = section
+    | regex_scan: "<repeat>(.*?)</repeat>"
+    | default: "false"
+  %}
 
   <section
     class="background"
@@ -30,7 +34,9 @@
       data-dark="{{ dark }}"
     {% endif %}
     {% if image %}
-      style="--image: url('{{ image | relative_url | uri_escape }}')"
+      style="--image: url('{{ image | relative_url | uri_escape }}');
+      --bg-repeat: {{ repeat }};
+      "
     {% endif %}
   >
     {{ section }}

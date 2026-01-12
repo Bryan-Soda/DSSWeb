@@ -8,7 +8,10 @@
 
 <header
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
+  style="--image: url('{{ image | relative_url | uri_escape }}');
+  --bg-repeat: repeat;
+  --bg-size: 65%;
+  "
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
