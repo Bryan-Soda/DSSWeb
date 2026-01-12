@@ -1,0 +1,49 @@
+<div class="events-tab">
+    <div class="et-header">
+      <div class="et-subtitle">{{ include.term | default: "This Semester" }}</div>
+      <div class="et-dates">{{ include.dates | default: "Updated regularly" }}</div>
+    </div>
+  
+    <div class="et-grid">
+      <!-- Wide: Weekly Meetings -->
+      <div class="et-card et-card--wide">
+        <div class="et-heading" style="text-align: left;">GENERAL MEETINGS</div>
+        <p class="et-text" style="text-align: left;">
+          {{ include.weekly_desc | default: "Weekly meetings cover project updates, community building, and upcoming opportunities. Swing by whenever you can make it." }}
+        </p>
+  
+        <div class="et-inner">
+        <div class="et-event">{{ include.weekly_event | default: "General Meeting" }}</div>
+          <div class="et-date">{{ include.weekly_date | default: "TUE, TBD" }}</div>
+          <div class="et-time">{{ include.weekly_time | default: "Time TBD" }}</div>
+        </div>
+      </div>
+  
+      <!-- Workshops -->
+      <div class="et-card">
+        <div class="et-heading">WORKSHOPS</div>
+        <p class="et-text" style="text-align: center;">
+          {{ include.workshop_desc | default: "Hands-on sessions focused on tools, data analysis, and building portfolio-ready skills." }}
+        </p>
+  
+        <div class="et-inner et-inner--compact">
+            <div class="et-event">{{ include.workshop_event | default: "Workshop" }}</div>
+            <div class="et-date">{{ include.workshop_date | default: "TUE, TBD" }}</div>
+            <div class="et-time">{{ include.workshop_time | default: "Time TBD" }}</div>
+        </div>
+      </div>
+  
+      <!-- Fundraisers -->
+      <div class="et-card">
+        <div class="et-heading">FUNDRAISERS</div>
+        <p class="et-text" style="text-align: center;">
+          {{ include.fund_desc | default: "Fundraisers help support speakers, club activities, and resources for members." }}
+        </p>
+  
+        <div class="et-inner et-inner--compact">
+          <div class="et-event">{{ include.fundraiser_event | default: "Fundraiser" }}</div>
+          <div class="et-date">{{ include.fundraiser_date | default: "TUE, TBD" }}</div>
+          <div class="et-time">{{ include.fundraiser_time | default: "Time TBD" }}</div>
+      </div>
+    </div>
+  </div>  
