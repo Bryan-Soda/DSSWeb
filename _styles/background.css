@@ -10,8 +10,8 @@
   position: absolute;
   inset: 0;
   background-image: var(--image);
-  background-size: 65%;
-  background-repeat: repeat;
+  background-size: var(--bg-size, 100%);
+  background-repeat: var(--bg-repeat, no-repeat);
   background-position: 50% 50%;
   opacity: 0.25;
   z-index: -1;

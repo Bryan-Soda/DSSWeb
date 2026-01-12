@@ -331,7 +331,10 @@
 
 
 
-<header class="background" style="--image: url('/DSSWeb/images/blue.png')" data-dark="true">
+<header class="background" style="--image: url('/DSSWeb/images/blue.png');
+  --bg-repeat: repeat;
+  --bg-size: 65%;
+  " data-dark="true">
   <!--  -->
   <a href="/DSSWeb/" class="home">
     
@@ -412,19 +415,14 @@
   
   
   
+    
 
   <section class="background" data-size="page">
-    <h2 id="-page-not-found">
-<i class="icon fa-solid fa-heart-crack"></i> Page Not Found</h2>
-
-<p class="center">Try searching the whole site for the content you want:</p>
-
-<form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google">
-  <button type="submit" class="button" aria-label="search site">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
-</form>
+    <h1 id="-404">
+<i class="icon fa-solid fa-triangle-exclamation"></i> <strong>404</strong>
+</h1>
+<h1 id="-page-not-found">
+<i class="icon fa-solid fa-heart-crack"></i> Page Not Found</h1>
   </section>
 
 
@@ -432,7 +430,10 @@
     
 
 
-<footer class="background" style="--image: url('/DSSWeb/images/banner-v2.png')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/DSSWeb/images/banner-v2.png');
+  --bg-repeat: repeat;
+  --bg-size: 65%;
+  " data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
