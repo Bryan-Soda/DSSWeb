@@ -41,6 +41,8 @@ button {
   background: $buttonColor;
   font-size: 25px;
   color: #ffff;
+  padding-inline: 50px;
+  padding-block: 15px;
   
   &:hover{
     background: #EEBA2B; //experimenting

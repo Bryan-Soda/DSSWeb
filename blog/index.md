@@ -1,21 +1,40 @@
 ---
-title: Blog
+title: Events
 nav:
   order: 4
-  tooltip: Musings and miscellany
+  tooltip: Events, Workshops, Fundraisers, etc.
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# {% include icon.html icon="fa-regular fa-calendar"%}Events
+<hr>
+<h4 style="text-align: center;">Stay up to date with what’s happening in the Data Science Society! </h4>
+<h4 style="text-align: center;">This page is where we’ll post our weekly meetings, upcoming workshops, and fundraiser events throughout the semester. Check back often for dates, times, and details!</h4>
 
 {% include section.html %}
 
-{% include search-box.html %}
+{% include events-tab.html
 
-{% include tags.html tags=site.tags %}
+  term="Spring 2026"
+  dates="January 20 – May 7, 2026"
+  weekly_event="1st General Meeting"
+  weekly_date="January 28th, 2026"
+  weekly_time="6:30 – 7:00 PM"
 
-{% include search-info.html %}
+  workshop_event="Github Workshop"
+  workshop_date="February 10th, 2026"
+  workshop_time="6:00 – 7:00 PM"
 
-{% include list.html data="posts" component="post-excerpt" %}
+  fundraiser_event="Panda Express Fundraiser"
+  fundraiser_date="March 10th, 2026"
+  fundraiser_time="6:00 – 7:00 PM"
+  
+%}
+
+
+<!-- {% include search-box.html %} -->
+
+<!-- {% include tags.html tags=site.tags %} -->
+
+<!-- {% include search-info.html %} -->
+
+<!-- {% include list.html data="posts" component="post-excerpt" %} -->
