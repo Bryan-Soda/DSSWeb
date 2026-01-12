@@ -1,7 +1,7 @@
 - title: Intro to Regression Project - House Price Prediction
   subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/house_prediction.png
+  image: images/project-images/house_predict_v3.png
   # link: https://github.com/
   description: Predict the sales price for each house based on certain factors like location, size, number of rooms, and overall condition.
   # repo: greenelab/lab-website-template
@@ -11,7 +11,7 @@
 - title: DSS Website
   subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/dss_website.png
+  image: images/project-images/dss_website_v3.png
   # link: https://github.com/
   description: Build and design the official DSS UCM website, including pages for About Us, Projects, Workshops, and external resources.
   # repo: greenelab/lab-website-template
@@ -21,7 +21,7 @@
 - title: Document Summarization with LLMs
   subtitle: <b>(Beginner)</b>
   group: featured
-  image: images/summarization_v2.png
+  image: images/project-images/doc_summary_v3.png
   # link: https://github.com/
   description: Use large language models to automatically generate abstracts for research papers from SocArXiv.
   # repo: greenelab/lab-website-template
@@ -31,7 +31,7 @@
 - title: Computer Vision Project - Spot it! Game
   subtitle: <b>(Intermediate)</b>
   group: featured
-  image: images/spotit_v2.png
+  image: images/project-images/spot_it_v3.png
   # link: https://github.com/
   description: Use Roboflow and YOLO models to train a custom dataset that allows a computer to recognize and play the Spot It! game.
   # repo: greenelab/lab-website-template
@@ -41,7 +41,7 @@
 - title: Image Classification Project - Conser-vision
   subtitle: <b>(Advanced)</b>
   group: featured
-  image: images/conservision_v2.png
+  image: images/project-images/conservision_v3.png
   # link: https://github.com/
   description: Create and train a custom model to identify species in camera trap images collected by research partners.
   # repo: greenelab/lab-website-template

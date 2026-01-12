@@ -35,12 +35,3 @@ nav:
   fundraiser_time="6:00 – 7:00 PM"
   
 %}
-
-
-<!-- {% include search-box.html %} -->
-
-<!-- {% include tags.html tags=site.tags %} -->
-
-<!-- {% include search-info.html %} -->
-
-<!-- {% include list.html data="posts" component="post-excerpt" %} -->
