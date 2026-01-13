@@ -14,6 +14,7 @@ nav:
   include button.html
   link="https://docs.google.com/forms/d/e/1FAIpQLScd0Wdh97kbXVQVrYe7nrbhGcLYJHDMphwLcHDprX87SWUXeg/viewform?usp=dialog"
   text="Interest Form"
+  style="large"
 %}
 
 {% include section.html dark=true %}
