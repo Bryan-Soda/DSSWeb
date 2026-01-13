@@ -11,12 +11,17 @@
 <!-- button -->
 {%
   include button.html
-  text="Stay Connected"
+  text="Join Us!"
   style="large"
   link="https://linktr.ee/dssucm"
+  target="_blank"
 %}
-
-## Next Event
+{%
+  include button.html
+  text="Events"
+  style="large"
+  link="./events"
+%}
 
 {% include section.html 
 background="images/blue.png" 

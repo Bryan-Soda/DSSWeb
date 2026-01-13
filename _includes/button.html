@@ -1,5 +1,6 @@
 {% assign button = include %}
 {% assign button = button | hash_default: site.data.types[include.type] %}
+{% assign target = include.target  default: "_self" %}
 
 {% if button.link or button.icon or button.text %}
   <div class="button-wrapper">
@@ -14,7 +15,7 @@
         data-flip
       {% endif %}
       aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
-      target="_blank"
+      target="{{ target }}"
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}
