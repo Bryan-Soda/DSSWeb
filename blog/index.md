@@ -8,8 +8,8 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-calendar"%}Events
 <hr>
-<h4 style="text-align: center;">Stay up to date with what’s happening in the Data Science Society! </h4>
-<h4 style="text-align: center;">This page is where we’ll post our weekly meetings, upcoming workshops, and fundraiser events throughout the semester. Check back often for dates, times, and details!</h4>
+<p style="text-align: center;">Stay up to date with what’s happening in the Data Science Society! </p>
+<p style="text-align: center;">This page is where we’ll post our <u><b>weekly meetings</b></u>, <u><b>upcoming workshops</b></u>, and <u><b>fundraiser events</b></u> throughout the semester. Check back often for dates, times, and details!</p>
 
 {% include section.html %}
 

@@ -30,7 +30,7 @@ repeat="repeat"  %}
 
 # **Mission Statement**
 <hr>
-<p style="text-align: center;">Our mission is to cultivate a <b>community</b> of innovators passionate about data-driven discovery. Empower students <b>to master</b> the tools of data science, apply them to real-world problems, and collaborate across disciplines to generate insight, <b>impact</b>, and innovation.</p>
+<p style="text-align: center;">Our mission is to <u><b>cultivate a community</b></u> of innovators passionate about data-driven discovery. <u><b>Empower students</b></u> to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to <u><b>generate insight, impact, and innovation.</b></u></p>
 
 {% include card.html
   image="images/photo.jpg"
