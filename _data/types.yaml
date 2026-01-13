@@ -114,6 +114,12 @@ instagram:
   tooltip: Instagram
   link: https://instagram.com/$VALUE
 
+discord:
+  icon: fa-brands fa-discord
+  text: Discord
+  tooltip: Discord
+  link: https://discord.com/$VALUE
+
 youtube:
   icon: fa-brands fa-youtube
   text: YouTube
