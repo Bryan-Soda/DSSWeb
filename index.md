@@ -42,7 +42,7 @@ repeat="repeat"  %}
 {% include card.html 
   style="pillars"
   image="images/photo.jpg"
-  title="To Master"
+  title="Education"
   description="From Python to data Visualization, we turn classroom theory into real-world practice. Our hands-on workshops and collaborative projects are built to take you beyond the basics."
 %}
 

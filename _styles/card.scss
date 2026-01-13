@@ -21,7 +21,7 @@
 }
 
 .card[data-style="pillars"] {
-  font-size: larger;
+  font-size: clamp(1.5rem, 2vw, 2rem);
   // placeolder for additional styling
 }
 .card[data-style="pillars"]p {
