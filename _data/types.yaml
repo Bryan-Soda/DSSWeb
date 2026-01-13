@@ -118,7 +118,7 @@ discord:
   icon: fa-brands fa-discord
   text: Discord
   tooltip: Discord
-  link: https://discord.com/$VALUE
+  link: https://discord.gg/$VALUE
 
 youtube:
   icon: fa-brands fa-youtube
@@ -130,7 +130,7 @@ linkedin:
   icon: fa-brands fa-linkedin
   text: LinkedIn
   tooltip: LinkedIn
-  link: https://www.linkedin.com/in/$VALUE
+  link: https://www.linkedin.com/company/$VALUE
 
 # alerts
 
