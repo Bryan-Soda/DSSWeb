@@ -1,4 +1,5 @@
 ---
+title: Data Science Society @ UCM
 ---
 
 
