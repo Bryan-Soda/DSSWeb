@@ -33,7 +33,7 @@ repeat="repeat"  %}
 <p style="text-align: center;">Our mission is to <u><b>cultivate a community</b></u> of innovators passionate about data-driven discovery. <u><b>Empower students</b></u> to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to <u><b>generate insight, impact, and innovation.</b></u></p>
 
 {% include card.html
-  image="images/photo.jpg"
+  image="images/community1.png"
   style="pillars"
   title="Community"
   bg="#021B3B"
@@ -42,14 +42,14 @@ repeat="repeat"  %}
 
 {% include card.html 
   style="pillars"
-  image="images/photo.jpg"
+  image="images/education.png"
   title="Education"
   bg="#96720D"
   description="From Python to data Visualization, we turn classroom theory into real-world practice. Our hands-on workshops and collaborative projects are built to take you beyond the basics."
 %}
 
 {% include card.html 
-  image="images/photo.jpg"
+  image="images/impact.png"
   style="pillars"
   title="Impact"
   bg="#021B3B"
