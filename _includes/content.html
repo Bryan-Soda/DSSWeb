@@ -36,6 +36,7 @@
     {% if image %}
       style="--image: url('{{ image | relative_url | uri_escape }}');
       --bg-repeat: {{ repeat }};
+      --bg-size: {{ size }};
       "
     {% endif %}
   >

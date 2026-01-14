@@ -1,5 +1,5 @@
 ---
-title: DSS Projects
+title: Projects
 nav:
   order: 2
   tooltip: Software, datasets, and more
