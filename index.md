@@ -56,6 +56,29 @@ repeat="repeat"  %}
   bg="#021B3B"
   description="The future of data science is rooted in its ability to solve problems that matter. From local challenges to global trends, we are gathering the curious minds needed to turn data into a tool for innovation."
 %}
+<br> 
+{% include events-tab.html
+
+
+  term="Spring 2026"
+  dates="January 20 – May 7, 2026"
+
+
+  weekly_event="1st General Meeting"
+  weekly_date="January 28th, 2026"
+  weekly_time="6:30 – 7:00 PM"
+
+
+  workshop_event="Github Workshop"
+  workshop_date="February 10th, 2026"
+  workshop_time="6:00 – 7:00 PM"
+
+
+  fundraiser_event="Panda Express Fundraiser"
+  fundraiser_date="March 10th, 2026"
+  fundraiser_time="6:00 – 7:00 PM"
+  
+%}
 
 
 
