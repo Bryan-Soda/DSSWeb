@@ -7,7 +7,6 @@ title: Data Science Society @ UCM
 
 {%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
 # data science society @ ucm
-<hr>
 <p style="text-align: center;">Welcome to the Data Science Society at UC Merced! We are a student-led organization dedicated to learning, building, and exploring data science together. Browse our events, workshops, projects, and see how YOU can get involved.</p>
 <!-- buttons -->
 {%
@@ -30,7 +29,7 @@ repeat="repeat"  %}
 
 
 # **Mission Statement**
-<hr>
+<hr style="border: 2px solid red; background-color: black;">
 <p style="text-align: center;">Our mission is to <u><b>cultivate a community</b></u> of innovators passionate about data-driven discovery. <u><b>Empower students</b></u> to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to <u><b>generate insight, impact, and innovation.</b></u></p>
 
 {% include card.html
@@ -59,6 +58,9 @@ repeat="repeat"  %}
 {% include section.html
 
 %} 
+
+# **Upcoming Events**
+<hr style="border: 2px solid red; background-color: black;">
 {% include events-tab.html
 
 
