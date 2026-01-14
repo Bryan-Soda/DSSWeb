@@ -36,6 +36,7 @@ repeat="repeat"  %}
   image="images/photo.jpg"
   style="pillars"
   title="Community"
+  bg="#021B3B"
   description="We are building a community of curious minds ready to challenge themselves and explore the unknown. Whether you’re a beginner or a pro, if you want to build the future, you belong here."
 %}
 
@@ -43,6 +44,7 @@ repeat="repeat"  %}
   style="pillars"
   image="images/photo.jpg"
   title="Education"
+  bg="#96720D"
   description="From Python to data Visualization, we turn classroom theory into real-world practice. Our hands-on workshops and collaborative projects are built to take you beyond the basics."
 %}
 
@@ -50,6 +52,7 @@ repeat="repeat"  %}
   image="images/photo.jpg"
   style="pillars"
   title="Impact"
+  bg="#021B3B"
   description="The future of data science is rooted in its ability to solve problems that matter. From local challenges to global trends, we are gathering the curious minds needed to turn data into a tool for innovation."
 %}
 
