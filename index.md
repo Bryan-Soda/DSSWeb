@@ -56,7 +56,9 @@ repeat="repeat"  %}
   bg="#021B3B"
   description="The future of data science is rooted in its ability to solve problems that matter. From local challenges to global trends, we are gathering the curious minds needed to turn data into a tool for innovation."
 %}
-<br> 
+{% include section.html
+
+%} 
 {% include events-tab.html
 
 
