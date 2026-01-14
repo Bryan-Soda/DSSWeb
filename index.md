@@ -3,7 +3,7 @@ title: Data Science Society @ UCM
 ---
 
 
-{% include section.html size="hero" %}
+{% include section.html background="images/yellow-science-background.jpg" size="hero" %}
 
 {%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
 # data science society @ ucm
