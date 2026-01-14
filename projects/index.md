@@ -14,7 +14,7 @@ nav:
 
 {% include section.html background="images/blue-gold-wallpaper.jpg" size="cover"%}
 
-## Featured Projects
+<h2 style="text-align: center;">Featured Projects</h2>
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 

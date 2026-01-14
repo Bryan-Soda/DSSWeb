@@ -15,7 +15,7 @@ nav:
 
 {% include section.html background="images/blue-gold-wallpaper.jpg" size="cover" %}
 
-<h3 style="text-align: center;">DSS Board</h3>
+<h2 style="text-align: center;">DSS Board</h2>
 {% capture leadership %}
 {% include figure.html image="images/team/Axel.png" caption="Axel Muniz Tello&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**President**" %}
 {% include figure.html image="images/team/Prerana.png" caption="Prerana Somarapu&nbsp;&nbsp;<a href='https://www.linkedin.com' target='_blank'><i class='fa-brands fa-linkedin' style='color: #0077b5;'></i></a><br>**Vice President**" %}
