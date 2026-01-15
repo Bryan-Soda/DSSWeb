@@ -3,7 +3,7 @@ title: Data Science Society @ UCM
 ---
 
 
-{% include section.html background="images/yellow-science-background.jpg" size="hero" %}
+{% include section.html background="images/neural_network.gif" size="cover" %}
 
 {%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
 # data science society @ ucm
@@ -30,7 +30,13 @@ repeat="repeat"  %}
 
 # **Mission Statement**
 <hr style="border: 2px solid red; background-color: black;">
-<p style="text-align: center;">Our mission is to <u><b>cultivate a community</b></u> of innovators passionate about data-driven discovery. <u><b>Empower students</b></u> to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to <u><b>generate insight, impact, and innovation.</b></u></p>
+<p style="text-align: center;">
+  <em>
+    Our mission is to <u><b>cultivate a community</b></u> of innovators passionate about data-driven discovery.
+    <u><b>Empower students</b></u> to master the tools of data science, apply them to real-world problems, and collaborate across disciplines to <u><b>generate insight, impact, and innovation.</b></u>
+  </em>
+</p>
+
 
 {% include card.html
   image="images/community1.png"
@@ -55,9 +61,8 @@ repeat="repeat"  %}
   bg="#021B3B"
   description="The future of data science is rooted in its ability to solve problems that matter. From local challenges to global trends, we are gathering the curious minds needed to turn data into a tool for innovation."
 %}
-{% include section.html
 
-%} 
+{% include section.html background="images/blue-gold-wallpaper.jpg" size="cover" %} 
 
 # **Upcoming Events**
 <hr style="border: 2px solid red; background-color: black;">

@@ -6,6 +6,7 @@ nav:
 ---
 
 {% include section.html background="images/yellow-science-background.jpg" size="cover"%} 
+
 # {% include icon.html %}Join Us!
 <p style="text-align: center;">Tell us a bit about yourself in the interest form to help us stay connected with you!</p>
 
