@@ -7,7 +7,7 @@ title: Data Science Society @ UCM
 
 {%comment%} ^^This section had to placed prior to the #HERO for the 'datasize' to be applied (ie: allows this section to have hero aspects applied)   {%endcomment%}
 # data science society @ ucm
-<p style="text-align: center;">Welcome to the Data Science Society at UC Merced! We are a student-led organization dedicated to learning, building, and exploring data science together. Browse our events, workshops, projects, and see how YOU can get involved.</p>
+<p style="text-align: center; font-size: 25px;">Welcome to the Data Science Society at UC Merced! We are a student-led organization dedicated to learning, building, and exploring data science together. Browse our events, workshops, projects, and see how YOU can get involved.</p>
 <!-- buttons -->
 {%
   include button.html
